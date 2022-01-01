@@ -1,0 +1,30 @@
+.parent {
+    background-image: url('../../images/cover.jpg');
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+}
+
+.quick-intro {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.quick-intro-text {
+    border-style: solid;
+    border-color: white;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    text-align: center;
+    color: white;
+}
+
+.quick-intro-btns {
+    margin-top: 5%;
+}
+
+.ind-btn {
+    margin: 1%;
+}
