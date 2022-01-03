@@ -21,7 +21,7 @@
                     <p class="lead"> MS in Computer Science(2021-2023)</p>
                 </div>
                 <div class="quick-intro-btns">
-                    <button type="button" class="btn btn-outline-light ind-btn">Overview</button>
+                    <button type="button" class="btn btn-outline-light ind-btn" data-bs-toggle="modal" data-bs-target="#overviewModal">Overview</button>
                     <a href="https://github.com/gadgil-devashri" class="btn btn-outline-light ind-btn" role="button">GitHub Portfolio</a>
                     <a href="https://gadgil-devashri.medium.com/" class="btn btn-outline-light ind-btn" role="button">Blogs</a>
                     <a href="https://www.linkedin.com/in/devashri-gadgil-293317132/" class="btn btn-outline-light ind-btn" role="button">LinkedIn</a>
@@ -29,6 +29,46 @@
                 </div>
             </div>
             <div class="col"></div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="overviewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="overviewModalLabel">Introduction</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span class="profile-main">
+                            <img src="images/self.jpg" class="profile-pic">
+                        </span>
+                        <p>Hello!</p>
+                        <p>My name is Devashri Gadgil. Thank you for your interest in my profile.</p>
+                        <span>I am a graduate student at UNC, Charlotte pursuing MS in Computer Science. 
+                              I am fascinated by any technological advancement that makes life easier. 
+                              I enjoy developing simple yet effective reusable UI components and deploying them on the fly. 
+                              Python is my strong suit. I easily switch to implementing backend utilities when the deadlines are tight.
+                        </span>
+                        <p> I accomplished Bachelor in Engineering (Computer) degree from Pune University in 2017. 
+                            I started working as Software Engineer for Persistent Systems.
+                            I collaborated with a big team working across different timezones for a product IBM -Watson Real-Time Personalization.
+                            During my tenure, I was promoted twice and I received several awards for my contributions to the project. 
+                        </p>
+                        <span> Wait! I am more than just a software developer. </span>
+                        <span>
+                            I passionately bake muffins and brownies. 
+                            My obsession with any form of impactful content(books/digital/web series) is never-ending.
+                        </span>
+                        <p></p>
+                        <p> Want to discuss further?</p>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

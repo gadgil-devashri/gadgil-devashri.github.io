@@ -28,3 +28,22 @@
 .ind-btn {
     margin: 1%;
 }
+
+.modal-content {
+    background-color: black;
+    color: white;
+ }
+
+ .profile-main {
+     width: 100%;
+     display: block;
+     text-align: center;
+ }
+
+ .profile-pic {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
