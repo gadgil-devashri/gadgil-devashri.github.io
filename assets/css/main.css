@@ -47,3 +47,14 @@
     border-radius: 50%;
     object-fit: cover;
  }
+
+ .icon-grp {
+     text-align: center;
+ }
+
+ .modal-header {
+     border-bottom: 0px;
+ }
+ .modal-close {
+     background-color: white;
+ }
