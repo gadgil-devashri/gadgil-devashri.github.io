@@ -13,6 +13,11 @@ Defects / Improvements needed
 * Current title of the webpage is My Personal website. It should be Devashri Gadgil instead : Status(Fixed)
 * Background image should look consistent. Currently it is getting repeated : Status(Fixed)
 
+## Phase Two
+Features:
+* Left Nav Bar
+* Contact Me
+* Open Resume in a new tab 
  
 
 ## Contact Details 
