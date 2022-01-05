@@ -12,14 +12,38 @@
         <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body class="parent">
+        <nav class="navbar navbar-dark bg-transparent fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Additional Resources</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./docs/resume.pdf" target="_blank">View Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <!-- <a class="nav-link" href="#">Link</a> -->
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
         <div class="row">
             <div class="col"></div>
             <div class="col main-col">
                 <div class="quick-intro">
                 <div class="quick-intro-text">
-                    <h1>Hi, I am Devashri</h1>
-                    <p class="lead">Incoming SWE Intern at Adobe | Graduate Teaching Assitant at UNC, Charlotte</p>
-                    <p class="lead"> MS in Computer Science(2021-2023)</p>
+                    <h1>Hi, I am Devashri.</h1>
+                    <p class="lead">Incoming SWE Intern at Adobe | Graduate Teaching Assistant at UNC, Charlotte</p>
+                    <p class="lead"> MS in Computer Science (2021-2023)</p>
                 </div>
                 <div class="quick-intro-btns">
                     <button type="button" class="btn btn-outline-light ind-btn" data-bs-toggle="modal" data-bs-target="#overviewModal">Overview</button>
@@ -35,7 +59,7 @@
         <!-- Modal -->
         <div class="modal fade" id="overviewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header">
                         <h3 class="modal-title" id="overviewModalLabel">Introduction</h3>
                         <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
