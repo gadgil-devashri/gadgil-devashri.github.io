@@ -18,6 +18,8 @@ Features:
 * Right Nav Bar : **Complete**
 * Contact Me
 * Open Resume in a new tab : **Complete**
+* Add brand name using Devnagri font : **Complete**
+* Change Design for Navbar(Offcanvas to traditional) to improve user satisfaction : **Complete**
  
 
 ## Contact Details 
