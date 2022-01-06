@@ -62,3 +62,8 @@
  .modal-close {
      background-color: white;
  }
+
+ .dg-brand {
+    font-family: 'Amita', cursive;
+    font-size: 30px;
+ }
